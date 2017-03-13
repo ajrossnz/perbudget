@@ -1,0 +1,31 @@
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 70%;
+}
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+td.tablehead {
+	font-weight: bold;
+}
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	text-shadow: 3px 2px lightgrey;
+}
+p, div {
+	font-family: 'Roboto', sans-serif;
+}
+
+div.pagemargin {
+	margin-left: 50px;
+}
